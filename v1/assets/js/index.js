@@ -1,4 +1,5 @@
-const url = 'http://www.omdbapi.com/?apikey=tuapikeys=';
+const apiKey = 'Tu api key aqui'
+const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=`;
 const button = document.querySelector('button');
 const cards = document.querySelector('.cards')
 const input = document.querySelector('input')
